@@ -1,0 +1,104 @@
+[2025-03-26 14:51:37,865] [CAPTURA] Iniciando câmera: P01-SUL_POS___
+[2025-03-26 14:51:37,866] [RECONNECT] P01-SUL_POS___...
+[2025-03-26 14:51:37,866] [CAPTURA] Iniciando câmera: P02-SUL_POS___
+[2025-03-26 14:51:37,866] [CAPTURA] Iniciando câmera: P03-SUL_POS___
+[2025-03-26 14:51:37,867] [RECONNECT] P02-SUL_POS___...
+[2025-03-26 14:51:37,867] [RECONNECT] P03-SUL_POS___...
+[2025-03-26 14:51:37,903] [CAPTURA] Iniciando câmera: P04-SUL_POS___
+[2025-03-26 14:51:37,905] [CAPTURA] Iniciando câmera: P05-SUL_POS___
+[2025-03-26 14:51:37,905] [RECONNECT] P04-SUL_POS___...
+[2025-03-26 14:51:37,906] [RECONNECT] P05-SUL_POS___...
+[2025-03-26 14:51:37,906] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 14:51:40,825] [OK] Conectado: P01-SUL_POS___
+[2025-03-26 14:51:42,669] [OK] Conectado: P02-SUL_POS___
+[2025-03-26 14:51:43,467] [OK] Conectado: P04-SUL_POS___
+[2025-03-26 14:51:44,187] [OK] Conectado: P03-SUL_POS___
+[2025-03-26 14:51:44,766] [OK] Conectado: P05-SUL_POS___
+[2025-03-26 14:53:37,908] [SCHEDULER] Gerando timelapses...
+[2025-03-26 14:53:42,655] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_14-53-38-099-03-00.mp4
+[2025-03-26 14:53:44,386] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_14-53-42-686-03-00.mp4
+[2025-03-26 14:53:45,443] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_14-53-44-415-03-00.mp4
+[2025-03-26 14:53:46,376] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_14-53-45-470-03-00.mp4
+[2025-03-26 14:53:47,464] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_14-53-46-399-03-00.mp4
+[2025-03-26 14:53:47,475] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 14:55:47,475] [SCHEDULER] Gerando timelapses...
+[2025-03-26 14:55:54,673] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_14-55-47-632-03-00.mp4
+[2025-03-26 14:55:57,564] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_14-55-54-735-03-00.mp4
+[2025-03-26 14:55:59,675] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_14-55-57-627-03-00.mp4
+[2025-03-26 14:56:01,713] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_14-55-59-718-03-00.mp4
+[2025-03-26 14:56:03,802] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_14-56-01-749-03-00.mp4
+[2025-03-26 14:56:03,815] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 14:58:03,816] [SCHEDULER] Gerando timelapses...
+[2025-03-26 14:58:17,219] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_14-58-03-996-03-00.mp4
+[2025-03-26 14:58:21,891] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_14-58-17-292-03-00.mp4
+[2025-03-26 14:58:25,758] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_14-58-22-030-03-00.mp4
+[2025-03-26 14:58:28,846] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_14-58-25-823-03-00.mp4
+[2025-03-26 14:58:32,284] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_14-58-28-903-03-00.mp4
+[2025-03-26 14:58:32,326] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:00:32,329] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:00:50,928] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-00-32-734-03-00.mp4
+[2025-03-26 15:00:57,190] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-00-50-997-03-00.mp4
+[2025-03-26 15:01:01,493] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-00-57-241-03-00.mp4
+[2025-03-26 15:01:07,286] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-01-01-667-03-00.mp4
+[2025-03-26 15:01:13,949] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-01-07-383-03-00.mp4
+[2025-03-26 15:01:14,014] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:03:14,017] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:03:21,123] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-03-14-084-03-00.mp4
+[2025-03-26 15:03:24,154] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-03-21-150-03-00.mp4
+[2025-03-26 15:03:26,844] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-03-24-195-03-00.mp4
+[2025-03-26 15:03:30,345] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-03-26-885-03-00.mp4
+[2025-03-26 15:03:33,786] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-03-30-404-03-00.mp4
+[2025-03-26 15:03:33,806] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:05:33,810] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:05:42,854] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-05-33-865-03-00.mp4
+[2025-03-26 15:05:46,106] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-05-42-888-03-00.mp4
+[2025-03-26 15:05:49,034] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-05-46-135-03-00.mp4
+[2025-03-26 15:05:52,062] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-05-49-070-03-00.mp4
+[2025-03-26 15:05:55,898] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-05-52-103-03-00.mp4
+[2025-03-26 15:05:55,928] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:07:55,930] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:08:06,823] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-07-55-987-03-00.mp4
+[2025-03-26 15:08:11,912] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-08-06-861-03-00.mp4
+[2025-03-26 15:08:15,953] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-08-11-962-03-00.mp4
+[2025-03-26 15:08:19,576] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-08-15-993-03-00.mp4
+[2025-03-26 15:08:24,063] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-08-19-621-03-00.mp4
+[2025-03-26 15:08:24,093] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:10:24,094] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:10:36,496] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-10-24-148-03-00.mp4
+[2025-03-26 15:10:40,894] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-10-36-527-03-00.mp4
+[2025-03-26 15:10:44,168] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-10-40-927-03-00.mp4
+[2025-03-26 15:10:47,556] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-10-44-212-03-00.mp4
+[2025-03-26 15:10:51,125] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-10-47-588-03-00.mp4
+[2025-03-26 15:10:51,156] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:12:13,232] [ERRO] Captura falhou P05-SUL_POS___
+[2025-03-26 15:12:18,236] [RECONNECT] P05-SUL_POS___...
+[2025-03-26 15:12:18,858] [OK] Conectado: P05-SUL_POS___
+[2025-03-26 15:12:51,157] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:13:10,597] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-12-51-258-03-00.mp4
+[2025-03-26 15:13:17,545] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-13-10-639-03-00.mp4
+[2025-03-26 15:13:22,716] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-13-17-599-03-00.mp4
+[2025-03-26 15:13:27,531] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-13-22-787-03-00.mp4
+[2025-03-26 15:13:33,132] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-13-27-589-03-00.mp4
+[2025-03-26 15:13:33,165] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:15:33,165] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:15:55,567] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-15-33-249-03-00.mp4
+[2025-03-26 15:16:03,310] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-15-55-627-03-00.mp4
+[2025-03-26 15:16:09,362] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-16-03-375-03-00.mp4
+[2025-03-26 15:16:15,204] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-16-09-443-03-00.mp4
+[2025-03-26 15:16:22,076] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-16-15-271-03-00.mp4
+[2025-03-26 15:16:22,109] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:18:22,110] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:18:47,239] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-18-22-242-03-00.mp4
+[2025-03-26 15:18:55,725] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-18-47-315-03-00.mp4
+[2025-03-26 15:19:02,406] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-18-55-802-03-00.mp4
+[2025-03-26 15:19:09,100] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-19-02-472-03-00.mp4
+[2025-03-26 15:19:17,036] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-19-09-194-03-00.mp4
+[2025-03-26 15:19:17,092] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:21:17,093] [SCHEDULER] Gerando timelapses...
+[2025-03-26 15:21:44,777] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P01-SUL_POS___2025-03-26_15-21-17-166-03-00.mp4
+[2025-03-26 15:21:54,802] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P02-SUL_POS___2025-03-26_15-21-44-863-03-00.mp4
+[2025-03-26 15:22:02,245] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P03-SUL_POS___2025-03-26_15-21-54-891-03-00.mp4
+[2025-03-26 15:22:10,476] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P04-SUL_POS___2025-03-26_15-22-02-345-03-00.mp4
+[2025-03-26 15:22:19,342] [VIDEO] C:/Projects/TimeLapse/app/media/timelapses\P05-SUL_POS___2025-03-26_15-22-10-547-03-00.mp4
+[2025-03-26 15:22:19,402] [SCHEDULER] Esperando próximo ciclo...
+[2025-03-26 15:23:49,632] [ENCERRADO] Interrompido pelo usuário.
