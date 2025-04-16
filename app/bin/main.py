@@ -21,7 +21,11 @@ else:
 config_path = os.path.join(application_path, 'config.ini')
 config_file.read(config_path)
 
-log_path = os.path.join(application_path, 'logs.txt')
+log_dir = config_file['SETTINGS'].get('log_output_path', application_path)
+today_log_name = datetime.datetime.now().strftime('%Y-%m-%d') + ".log"
+log_path = os.path.join(log_dir, today_log_name)
+os.makedirs(log_dir, exist_ok=True)
+
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s] %(message)s',
                     handlers=[logging.FileHandler(log_path, encoding='utf-8'), logging.StreamHandler()])
 print = logging.info
@@ -120,7 +124,9 @@ def generate_timelapse(camera_name):
     h, w = first.shape[:2]
     ts = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S-%f')[:-3] + "-03-00"
     filename = f"{camera_name}{ts}.mp4"
-    video_path = os.path.join(TIMELAPSE_OUTPUT_PATH, filename)
+    video_dir = os.path.join(TIMELAPSE_OUTPUT_PATH, camera_name.replace('___', ''), today)
+    os.makedirs(video_dir, exist_ok=True)
+    video_path = os.path.join(video_dir, filename)
     out = cv2.VideoWriter(video_path, cv2.VideoWriter_fourcc(*'mp4v'), FRAMES_PER_SECOND, (w, h))
 
     for img in new_images:
@@ -139,11 +145,17 @@ def generate_timelapse(camera_name):
 def scheduler():
     while True:
         now = datetime.datetime.now()
-        if now.hour == 23 and now.minute == 59:
+
+        if now.hour == 0 and now.minute == 0 and now.second <= 5:
+            print("[SCHEDULER] Reset de ciclo às 00:00")
+            time.sleep(10)
+            continue
+
+        if now.hour == 23 and now.minute == 59 and now.second >= 50:
             print("[SCHEDULER] Execução forçada às 23:59")
             for cam in CAMERAS:
                 generate_timelapse(cam)
-            time.sleep(60)
+            time.sleep(10)
             continue
 
         print("[SCHEDULER] Esperando próximo ciclo...")
