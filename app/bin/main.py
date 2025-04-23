@@ -68,7 +68,7 @@ def capture_frames(camera_name, stream_url):
             time.sleep(0.1)
             continue
 
-        today_str = datetime.datetime.now().strftime('%d-%m-%Y')
+        today_str = datetime.datetime.now().strftime('%Y-%m-%d')
         image_dir = os.path.join(BASE_OUTPUT_PATH, camera_name.replace('___', ''), 'images', today_str)
         os.makedirs(image_dir, exist_ok=True)
 
@@ -102,7 +102,7 @@ def capture_frames(camera_name, stream_url):
         next_capture += SECONDS_BETWEEN_SHOTS
 
 def generate_timelapse(camera_name):
-    today = datetime.datetime.now().strftime('%d-%m-%Y')
+    today = datetime.datetime.now().strftime('%Y-%m-%d')
     image_dir = os.path.join(BASE_OUTPUT_PATH, camera_name.replace('___', ''), 'images', today)
     used_images_file = os.path.join(BASE_OUTPUT_PATH, camera_name.replace('___', ''), f"used_{today}.txt")
 
