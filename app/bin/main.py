@@ -101,8 +101,9 @@ def capture_frames(camera_name, stream_url):
 
         next_capture += SECONDS_BETWEEN_SHOTS
 
-def generate_timelapse(camera_name):
-    today = datetime.datetime.now().strftime('%Y-%m-%d')
+def generate_timelapse(camera_name, date_override=None):
+    target_date = date_override or datetime.datetime.now()
+    today = target_date.strftime('%Y-%m-%d')
     image_dir = os.path.join(BASE_OUTPUT_PATH, camera_name.replace('___', ''), 'images', today)
     used_images_file = os.path.join(BASE_OUTPUT_PATH, camera_name.replace('___', ''), f"used_{today}.txt")
 
@@ -115,6 +116,9 @@ def generate_timelapse(camera_name):
 
     all_images = sorted(glob.glob(os.path.join(image_dir, '*.jpg')))
     new_images = [img for img in all_images if os.path.basename(img) not in used_images]
+
+    print(f"[TIMELAPSE] {camera_name}: Total imagens no diretório: {len(all_images)}")
+    print(f"[TIMELAPSE] {camera_name}: Imagens novas a serem usadas: {len(new_images)}")
 
     if not new_images:
         print(f"[INFO] Nenhuma imagem nova para {camera_name}")
@@ -143,26 +147,32 @@ def generate_timelapse(camera_name):
     delete_old_images(camera_name)
 
 def scheduler():
+    next_run = datetime.datetime.now() + datetime.timedelta(seconds=SECONDS_DURATION)
     while True:
         now = datetime.datetime.now()
 
-        if now.hour == 0 and now.minute == 0 and now.second <= 5:
-            print("[SCHEDULER] Reset de ciclo às 00:00")
-            time.sleep(10)
-            continue
-
         if now.hour == 23 and now.minute == 59 and now.second >= 50:
             print("[SCHEDULER] Execução forçada às 23:59")
+            reference_date = datetime.datetime.now()
             for cam in CAMERAS:
-                generate_timelapse(cam)
+                generate_timelapse(cam, date_override=reference_date)
+            time.sleep(10)
+            next_run = datetime.datetime.now() + datetime.timedelta(seconds=SECONDS_DURATION)
+            continue
+
+        if now.hour == 0 and now.minute == 0 and now.second <= 5:
+            print("[SCHEDULER] Reset de ciclo às 00:00")
+            next_run = datetime.datetime.now() + datetime.timedelta(seconds=SECONDS_DURATION)
             time.sleep(10)
             continue
 
-        print("[SCHEDULER] Esperando próximo ciclo...")
-        time.sleep(SECONDS_DURATION)
-        print("[SCHEDULER] Gerando timelapses...")
-        for cam in CAMERAS:
-            generate_timelapse(cam)
+        if now >= next_run:
+            print("[SCHEDULER] Gerando timelapses agendados...")
+            for cam in CAMERAS:
+                generate_timelapse(cam)
+            next_run = datetime.datetime.now() + datetime.timedelta(seconds=SECONDS_DURATION)
+        else:
+            time.sleep(1)
 
 if __name__ == '__main__':
     setup_directories()
